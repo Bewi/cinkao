@@ -13,11 +13,11 @@ nav a.active {
   font-weight: bold;
 }
 
-#members, #shows {
+.scrollspy {
   padding-top: 30px;
 }
 
-#shows {
+#shows, #sets {
   padding-bottom: 50px;
 }
 
@@ -95,6 +95,7 @@ ul.detailed-list li .lead {
   float: left;
   padding: 15px;
   height: 100%;
+  text-transform: uppercase;
 }
 
 ul.detailed-list .details {
@@ -129,14 +130,14 @@ html * {
   margin: 0 auto;
 }
 
-#timeline {
+.timeline {
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-#timeline::before {
+.timeline::before {
   content: '';
   position: absolute;
   top: 0;
@@ -147,7 +148,7 @@ html * {
 }
 
 @media only screen and (min-width: 1170px) {
-  #timeline {
+  .timeline {
     margin-top: 3em;
     margin-bottom: 3em;
   }

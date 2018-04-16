@@ -2,9 +2,10 @@
   "name": "cinkao",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp connect"
   },
   "repository": {
     "type": "git",
